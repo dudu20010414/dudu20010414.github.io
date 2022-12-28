@@ -74,7 +74,27 @@ When？什么时候开始写的？第一次写博客是 2015 年了，在 CSDN �
 <link rel="stylesheet" href="/css/prism-line-numbers.css" type="text/css"></head>
 
 <body>
-
+<script src="https://v1.hitokoto.cn/?c=a&c=b&c=c&c=i&encode=js&amp;select=%23tantanpou" defer="" rel="preload" type="text/javascript"></script>
+<p id="tantanpou"></p>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/100/three.min.js"></script>
+<script src="https://www.vantajs.com/dist/vanta.birds.min.js"></script>
+<div id="vantajs" style="position: fixed; top: 0px; left: 0px; z-index: -1; height:100%; width:100%;"></div>
+<script>
+VANTA.BIRDS(&#123;
+  el: "#vantajs",
+  /* more options (Uncomment) */
+  //birdSize: 1.50,
+  //wingSpan: 21.00,
+  //speedLimit: 4.00,
+  //separation: 32.00,
+  //alignment: 33.00,
+  //cohesion: 33.00,
+  //quantity: 2.00
+&#125;);
+ 
+VANTA.BIRDS("#vantajs");
+ 
+</script>
     <header class="navbar-fixed">
     <nav id="headNav" class="bg-color nav-transparent">
         <div id="navContainer" class="nav-wrapper container">
